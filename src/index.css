@@ -42,3 +42,25 @@ body{
     color: #E6FFFB;
     border-color: #08979C;
 }
+.selector{
+    border: 1px solid #08979C;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: rgba(0, 109, 117, 0.2);
+    outline: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #E6FFFB;
+    height: 32px;
+    width: 55px;
+    padding-left: 10px;
+    -webkit-appearance: initial;
+    background-image: url('Component/ProfileFooter/Vector.png');
+    background-repeat: no-repeat;
+    background-position-x: 38px;
+    background-position-y: 14px;
+
+}

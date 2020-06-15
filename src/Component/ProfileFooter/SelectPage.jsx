@@ -4,7 +4,7 @@ import s from './ProfileFooter.module.css'
 const SelectPage = (props) => {
   return <div className={s.select}>
     <span className={s.selectTitle}>Show on page </span>
-    <select className={s.selector} name='pageSize' id=''>
+    <select className='selector' name='pageSize' id=''>
       <option className={s.option} value='25'>25</option>
       <option className={s.option} value='20'>20</option>
       <option className={s.option} value='15'>15</option>
