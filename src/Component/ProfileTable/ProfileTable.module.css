@@ -1,0 +1,66 @@
+.header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 22px;
+    border: 0;
+    background: #00474F;
+    border: 1px solid #00474F;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.header th {
+    height: 52px;
+}
+
+.headerNum {
+    width: 74px;
+    text-align: center;
+}
+
+.headerData {
+    width: 179px;
+    padding: 16px;
+}
+
+.headerInfo {
+    width: 661px;
+    padding: 14px 20px;
+}
+
+.headerType {
+    width: 90px;
+    padding: 14px 20px;
+}
+
+.headerCash {
+    width: 169px;
+    padding: 14px 20px;
+    text-align: end;
+}
+
+.headerStatus {
+    width: 70px;
+    padding: 16px 7px 16px 10px;
+}
+
+.body td {
+    border: 1px solid #00474F;
+    box-sizing: border-box;
+    height: 54px;
+}
+
+.body {
+    color: #E6FFFB;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.table {
+    max-width: 1240px;
+}

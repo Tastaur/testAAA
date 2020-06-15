@@ -1,0 +1,54 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    height: 86px;
+}
+.select{
+margin-left: 738px;
+}
+.selectTitle{
+    opacity: 0.5;
+}
+.selector{
+    border: 1px solid #08979C;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: rgba(0, 109, 117, 0.2);
+    outline: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #E6FFFB;
+    height: 32px;
+    width: 55px;
+    padding-left: 10px;
+}
+
+.option{
+    background-color:  #282c34;
+}
+.paginatorContainer{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.paginationItem *{
+    background: rgba(0, 109, 117, 0.2);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #E6FFFB;
+    border: 1px solid #08979C;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.paginationItem *:hover{
+    background: #08979C;
+    color: #E6FFFB;
+    border-color: #08979C;
+}
+

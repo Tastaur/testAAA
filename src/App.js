@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import {connect, Provider} from 'react-redux'
+import store from './Store/store'
+import ProfileHeader from './Component/ProfileHeader/ProfileHeader'
+import ProfileTable from './Component/ProfileTable/ProfileTable'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import NavBar from './Component/Navbar/NavBar'
+import ProfileFooter from './Component/ProfileFooter/ProfileFooter'
 
-function App() {
+const App = (props)=> {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="NavBar"><NavBar/></div>
+      <div className='Wrapper'>
+        <ProfileHeader/>
+        <div className='profileTable'><ProfileTable {...props}/></div>
+        <ProfileFooter/>
+      </div>
     </div>
   );
 }
+const mapStateToProps = (state) =>{
+  return state
+}
 
-export default App;
+const AppContainer = connect(mapStateToProps,)(App)
+
+const TestApp = (props)=>{
+  return <Provider store={store}>
+      <AppContainer/>
+    </Provider>
+}
+export default TestApp;

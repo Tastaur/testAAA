@@ -1,0 +1,41 @@
+.errorMessage{
+    color: #CF1322;
+    width: 70px;
+    padding: 15px 7px 15px 10px;
+
+}
+.cancelMessage{
+    opacity: .5;
+    width: 70px;
+    padding: 15px 7px 15px 10px;
+
+}
+.headerNum{
+    width: 74px;
+    text-align: center;
+}
+.headerData{
+    width: 179px;
+    padding: 15px;
+}
+.headerInfo{
+    width: 661px;
+    padding: 15px 20px;
+}
+.headerType{
+    width: 90px;
+    padding: 14px 20px;
+}
+.headerCash {
+    width: 169px;
+    padding: 14px 20px;
+    text-align: end;
+}
+.headerStatus {
+    width: 70px;
+    padding: 15px 7px 15px 10px;
+}
+.row:hover{
+    background: #00474F;
+}
+

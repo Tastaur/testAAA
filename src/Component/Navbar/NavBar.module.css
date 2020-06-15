@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.row:hover{
+    background-color:  #13C2C2;;
+}
+
+.row{
+    width: 200px;
+    cursor: pointer;
+    height: 40px;
+    padding: 8px 0;
+}
+.img{
+    width: 14px;
+    margin-left: 25px;
+}
+.imgIcon{
+    height: 8px;
+    margin-left: 68px;
+
+}
+.title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #B5F5EC;
+    margin-left: 4px;
+}

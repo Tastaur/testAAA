@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    height: 86px;
+    align-items: center;
+    padding-left: 34px;
+    color: #ffffff;
+
+}
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+}
+.subtitleContainer{
+    display: flex;
+    margin-left: 21px;
+}
+.subtitle{
+    font-size: 42px;
+    line-height: 42px;
+}
+.postSubtitle{
+    font-size: 32px;
+    line-height: 36px;
+    opacity: 0.5;
+}
+.buttonContainer{
+    margin-left: 23px;
+
+}
+.button{
+    background: #08979C;
+    border-radius: 8px;
+    width: 138px;
+    height: 30px;
+    margin-top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
